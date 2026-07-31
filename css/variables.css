@@ -1,0 +1,46 @@
+:root {
+  /* Paleta oficial ù Marcela Por Elas */
+  --color-cream: #f4f1ec;
+  --color-beige: #e5d7c8;
+  --color-taupe: #c5b09d;
+  --color-terracotta: #c18d72;
+  --color-mahogany: #63392d;
+  --color-sage: #7d8477;
+  --color-charcoal: #302c2a;
+  --color-hero-bg: #c18e73;
+
+  /* Tokens sem‚nticos */
+  --color-bg-dark: var(--color-charcoal);
+  --color-bg-light: #ffffff;
+  --color-bg-cream: var(--color-beige);
+  --color-bg-taupe: var(--color-taupe);
+
+  --color-text-primary: var(--color-charcoal);
+  --color-text-inverse: var(--color-cream);
+  --color-muted: #8a8076;
+
+  --color-accent-coral: var(--color-terracotta);
+  --color-accent-coral-hover: var(--color-mahogany);
+  --color-accent-salmon: var(--color-terracotta);
+  --color-accent-sage: var(--color-sage);
+
+  --color-border: rgba(48, 44, 42, 0.1);
+  --color-border-light: rgba(244, 241, 236, 0.14);
+
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-serif: var(--font-display);
+  --font-sans: "DM Sans", system-ui, sans-serif;
+
+  --container-max: 1250px;
+  --section-padding-y: clamp(4rem, 8vw, 7rem);
+  --section-padding-x: 20px;
+  --header-height: 5rem;
+  --radius-pill: 999px;
+
+  --shadow-soft: 0 0.5rem 2rem rgba(48, 44, 42, 0.07);
+  --shadow-header: 0 0.25rem 1.5rem rgba(48, 44, 42, 0.1);
+
+  --transition-base: 0.3s ease;
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+}
